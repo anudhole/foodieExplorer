@@ -1,0 +1,92 @@
+/* CSS file */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(236, 212, 233);
+    color: black;
+}
+
+#logo-page {
+    text-align: center;
+    padding: 50px 0;
+}
+#logo-page h1{
+        
+        font-style: italic;
+        font-size: 100px;
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+        height: 100%;
+        color: #2f0d28; 
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    
+}
+
+
+#about-us {
+    
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #c494bf; 
+        border-radius: 10px; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        max-width: 600px; 
+        padding: 20px; 
+        text-align: center; 
+}
+
+#about-us h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
+}
+
+#next {
+    display: block;
+    margin: 20px auto 0; /* Set top margin to create space */
+    padding: 10px 20px;
+    background-color: #db87bc;
+    border: none;
+    border-radius: 5px;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed; /* Position the button */
+    bottom: 20px; /* Set distance from bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for horizontal centering */
+}
+
+
+#next:hover {
+    background-color: #bca4c7; 
+}
